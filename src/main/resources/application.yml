@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: yummy-eureka-server
+
+# this project is not Eureka client
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
